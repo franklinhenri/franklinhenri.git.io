@@ -1,0 +1,28 @@
+/* Estilo css */
+body{
+  
+ 
+}
+h1 {
+  font-size: 40;                /*Tamanho da fonte*/
+  margin: 2px;                  /*Define a distancia das margens*/
+  display: flex;                /*centraliza o conteudo*/
+  justify-content: center;      /*centraliza o conteudo*/
+}
+h2{
+  color: rgb(220,20,60);
+  border: 1px dashed rgb(220,20,60);     /*define a espessura da borada, tipo e cor*/
+  padding: 7px;                 /*define a distncia entre o texto e a borda*/
+  margin-left: 500px;           /*Define a distancia da margem esquerda(da borda)*/
+  margin-right: 500px;          /*Define a distancia da margem direita(da borda)*/
+  display: flex;                /*centraliza o conteudo*/
+  flex-wrap: wrap;              /*centraliza o conteudo*/
+  justify-content: center;      /*centraliza o conteudo*/
+}
+
+p { 
+  color: rgb(220,20,60);
+  display: flex;                /*centraliza o conteudo*/
+  flex-wrap: wrap;              /*centraliza o conteudo*/
+  justify-content: center;      /*centraliza o conteudo*/
+}
