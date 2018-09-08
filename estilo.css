@@ -1,28 +1,127 @@
 /* Estilo css */
+
 body{
-  
- 
+  background-image: url("C:/Users/Veridiano/Documents/Henrique/rep/franklinhenri.git.io/imagens/fundo.png");
+  background-size: cover;
 }
-h1 {
-  font-size: 40;                /*Tamanho da fonte*/
-  margin: 2px;                  /*Define a distancia das margens*/
-  display: flex;                /*centraliza o conteudo*/
-  justify-content: center;      /*centraliza o conteudo*/
+#l1{
+	text-align: center;
+	color: aliceblue;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuwWlIFyn_dpmRk7zNRFk5wpXAMlpN_JOiuWBhbKzPdYQ5Dce1JA");
+	height: 60px;
 }
-h2{
-  color: rgb(220,20,60);
-  border: 1px dashed rgb(220,20,60);     /*define a espessura da borada, tipo e cor*/
-  padding: 7px;                 /*define a distncia entre o texto e a borda*/
-  margin-left: 500px;           /*Define a distancia da margem esquerda(da borda)*/
-  margin-right: 500px;          /*Define a distancia da margem direita(da borda)*/
-  display: flex;                /*centraliza o conteudo*/
-  flex-wrap: wrap;              /*centraliza o conteudo*/
-  justify-content: center;      /*centraliza o conteudo*/
+#l2{
+  text-align: center;
+}
+#foto{
+  text-align: center;
+  width: 200;
+  height: 290;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuwWlIFyn_dpmRk7zNRFk5wpXAMlpN_JOiuWBhbKzPdYQ5Dce1JA");  
+  border-bottom-right-radius: 110px;
+  border-bottom-left-radius: 110px;
+}
+#foto img{
+  margin-bottom: 25px; 
+  display: inline-block;
+  width: 160px;
+  height: 270px;
+  border-radius: 180px;
+}
+#l2 ul{
+  list-style: none;
+}
+#l2 ul li{
+	display: inline;
+	margin-left: 5px;
+}
+#l2 ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: aliceblue; 
+  padding: 2px 7px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuwWlIFyn_dpmRk7zNRFk5wpXAMlpN_JOiuWBhbKzPdYQ5Dce1JA");
+  border-bottom: 3px solid rgb(92, 92, 92);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-p { 
-  color: rgb(220,20,60);
-  display: flex;                /*centraliza o conteudo*/
-  flex-wrap: wrap;              /*centraliza o conteudo*/
-  justify-content: center;      /*centraliza o conteudo*/
+
+#l2 ul li a:hover{
+  color: black;
+  background-image: none;
+  background-color: rgb(227, 227, 227);
+  border-bottom: 3px solid black;
+}
+#l2 ul li button{
+  text-decoration: none;
+  display: inline-block;
+  color: aliceblue; 
+  padding: 2px 7px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuwWlIFyn_dpmRk7zNRFk5wpXAMlpN_JOiuWBhbKzPdYQ5Dce1JA");
+  border: none;
+  border-bottom: 3px solid rgb(92, 92, 92);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#l2 ul li button:hover{
+  color: black;
+  background-image: none;
+  background-color: rgb(227, 227, 227);
+  border-bottom: 3px solid black;
+}
+#l2 ul li img{
+	margin: 3px; 
+	width: 20px;
+	height: 20px;
+}
+
+#l3{
+  margin-top: 34px;
+}
+
+#l3 h1{
+border-bottom: 3px double black;
+}
+#l3 p{
+border-bottom: 3px double black;
+}
+#bt{
+  text-align: center;
+}
+#wppicon{
+  transition:300ms;
+  cursor:pointer;
+  text-align:center;
+  color:white;
+  display: none;
+  height:100%;
+  width:100%;
+  position:fixed;
+  background-color: rgba(0,0,0,0.95);
+  z-index:10;
+}
+#wppicon img{
+  height:140px;
+  width:140px;
+  top:50%;
+  left:50%;
+  margin-top:-68px;
+  margin-left: -250px;
+  position:fixed;
+}
+#wppicon h1{
+  top:50%;
+  left:50%;
+  margin-top: -38px;
+  margin-left: -100px;
+  position:fixed;
+  background-color: rgb(84, 207, 97);
+  border: 10px solid white;
+  border-radius: 20px;
+  padding: 9px;
+}
+#wpp{
+  margin-left: 0px;
+  cursor:pointer;
 }
