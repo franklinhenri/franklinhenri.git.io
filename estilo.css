@@ -1,8 +1,11 @@
 /* Estilo css */
-
 body{
   background-image: url("C:/Users/Veridiano/Documents/Henrique/rep/franklinhenri.git.io/imagens/fundo.png");
   background-size: cover;
+}
+body h1{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 45px;
 }
 #l1{
 	text-align: center;
@@ -124,4 +127,11 @@ border-bottom: 3px double black;
 #wpp{
   margin-left: 0px;
   cursor:pointer;
+}
+#rodape{
+  text-align: center;
+	color: aliceblue;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuwWlIFyn_dpmRk7zNRFk5wpXAMlpN_JOiuWBhbKzPdYQ5Dce1JA");
+  height: 60px;
+  margin-top: 64px;
 }
